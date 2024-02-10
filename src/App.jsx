@@ -2,6 +2,7 @@ import React from 'react';
 import Die from './components/Die';
 import { nanoid } from 'nanoid';
 import Confetti from 'react-confetti';
+import './style.css';
 
 export default function App() {
   const [dice, setDice] = React.useState(allNewDice());
